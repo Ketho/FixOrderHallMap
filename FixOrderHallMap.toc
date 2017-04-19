@@ -1,0 +1,7 @@
+## Interface: 70200
+## Version: @project-version@
+## Title: FixOrderHallMap
+## Notes: Properly zooms out from Paladin, Priest and Monk order hall to Broken Isles
+## Author: Ketho @ EU-Boulderfist
+
+FixOrderHallMap.lua
