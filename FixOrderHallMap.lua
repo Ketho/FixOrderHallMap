@@ -4,6 +4,7 @@ local t = {
 	[23] = function() return select(4, GetMapInfo()) end, -- Paladin, Sanctum of Light; Eastern Plaguelands
 	[1040] = function() return true end, -- Priest, Netherlight Temple; Azeroth
 	[1044] = function() return true end, -- Monk, Temple of Five Dawns; none
+	[1048] = function() return true end, -- Druid, Emerald Dreamway; none
 }
 
 local OnClick = WorldMapZoomOutButton_OnClick
