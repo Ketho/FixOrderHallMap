@@ -5,6 +5,7 @@ local t = {
 	[1040] = function() return true end, -- Priest, Netherlight Temple; Azeroth
 	[1044] = function() return true end, -- Monk, Temple of Five Dawns; none
 	[1048] = function() return true end, -- Druid, Emerald Dreamway; none
+	[1052] = function() return GetCurrentMapDungeonLevel() > 1 end, -- Demon Hunter, Fel Hammer; Mardum
 }
 
 local OnClick = WorldMapZoomOutButton_OnClick
